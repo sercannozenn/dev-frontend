@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ppImage from "../assets/images/pp.jpeg";
 
 const About: React.FC = () => {
   const [isDownloading, setIsDownloading] = useState(false);
@@ -309,7 +310,7 @@ const About: React.FC = () => {
             <div className="bg-[#111418] dark:bg-[#1a2632] text-white rounded-2xl overflow-hidden shadow-xl">
               <div className="aspect-square w-full bg-slate-800 relative">
                  <img 
-                  src="https://placehold.co/600x600?text=Yeni+Foto" 
+                  src={ppImage}
                   alt="Sercan Özen" 
                   className="w-full h-full object-cover"
                 />
